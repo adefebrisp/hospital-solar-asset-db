@@ -20,7 +20,7 @@ The goal of this project is to assist asset managers in:
 - Estimate **budget requirements** for asset maintenance and replacements.  
 
 ## 🏛 Database Structure  
-The database includes the following tables:  
+The database includes the following tables under the 'ucesafs' schema:  
 - **hospital_buildings** 🏥 – Hospital facility information  
 - **solar_panels** ☀️ – Solar panel assets  
 - **panel_temperature_sensors** 🌡 – Temperature sensors  
@@ -33,6 +33,26 @@ The database includes the following tables:
 - **SQL & PostgreSQL** – Database management  
 - **PostGIS** – Geospatial data integration  
 - **QGIS** – Visualization and spatial analysis  
-- **FME** – Data transformation and automation  
+- **FME** – Data transformation and automation
+
+## 📸 Visualizations  
+
+### QGIS Visualizations  
+*Visualization of solar panel locations within the hospital in QGIS, displaying asset location.*  
+
+<div align="center">
+  <img src="assets/Picture1.png" alt="QGIS Visualization 1" width="600"/>  
+  <img src="assets/Picture2.png" alt="QGIS Visualization 2" width="600"/>  
+  <img src="assets/Picture3.png" alt="QGIS Visualization 3" width="600"/>  
+</div>  
+
+### FME Visualizations  
+*Visualization of asset data transformation using FME, linking the solar panel data of PostgreSQL database to real-time condition and performance metrics.*  
+
+<div align="center">
+  <img src="assets/Picture4.png" alt="FME Visualization 1" width="600"/>  
+  <img src="assets/Picture5.png" alt="FME Visualization 2" width="600"/>  
+</div>  
+
 
 🚀 **Feel free to explore and contribute!**  
