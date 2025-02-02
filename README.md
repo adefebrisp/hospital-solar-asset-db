@@ -38,7 +38,7 @@ The database includes the following tables under the 'ucesafs' schema:
 ## 📸 Visualizations  
 
 ### QGIS Visualizations  
-*Visualization of solar panel locations within the hospital in QGIS, displaying asset location.*  
+*Visualization of solar panel locations within the hospital in QGIS, displaying asset location in **2D space**.*  
 
 <div align="center">
   <img src="assets/Picture1.png" alt="QGIS Visualization 1" width="600"/>  
@@ -47,7 +47,7 @@ The database includes the following tables under the 'ucesafs' schema:
 </div>  
 
 ### FME Visualizations  
-*Visualization of asset data transformation using FME, linking the solar panel data of PostgreSQL database to real-time condition and performance metrics.*  
+*Visualization of asset data transformation using FME, **linking solar panel data from the PostgreSQL database to real-time condition and performance metrics**. This visualization incorporates **3D geometries** to ensure alignment with real-world structures. The solar panels are modeled in 3D space and correctly positioned on the hospital roof to **reflect their actual placement**.*  
 
 <div align="center">
   <img src="assets/Picture4.png" alt="FME Visualization 1" width="600"/>  
